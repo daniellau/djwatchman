@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Djwatchman::VERSION
   spec.authors       = ["Daniel Lau"]
   spec.email         = ["idaniellau@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{A simple watcher that checks your delayed job list every hour and alerts you if your jobs haven't gone through.}
+  spec.summary       = %q{A simple watcher that checks your delayed job list every hour and alerts you if your jobs haven't gone through.}
+  spec.homepage      = "https://github.com/daniellau/djwatchman"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
