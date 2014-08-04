@@ -28,7 +28,7 @@ The default length of time that checks for unsent delayed jobs is 60 minutes. Yo
     case @environment
       when 'production'
         every :hour do
-          runner "DelayedJobMonitor.run"
+          runner "Djwatchman::DelayedJobMonitor.run"
         end
       else
         every 12.months, :at => '8:00 am' do
