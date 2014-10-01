@@ -6,7 +6,7 @@ A simple watcher that checks your delayed job list every hour and alerts you if 
 
 Add this line to your application's Gemfile:
 
-    gem 'djwatchman', "~> 0.0.2"
+    gem 'djwatchman', "~> 0.0.3"
 
 And then execute:
 
